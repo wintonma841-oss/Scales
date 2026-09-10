@@ -15,11 +15,8 @@ for(float j = 25; j <= 500; j+=50)
     line(i-42.5,j-42.5,i+42.5,j+42.5);
     line(i+42.5,j-42.5,i-42.5,j+42.5);
     noStroke();
-
-    
     fill(255,0,0);
     ellipse(i,j,20,20);
-    
   }
   System.out.println(" ");
 }
