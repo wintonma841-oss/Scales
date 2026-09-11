@@ -1,8 +1,9 @@
 void setup() {
-  CreateCanvas(500, 500);  //feel free to change the size
+  size(500, 500);  //feel free to change the size
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
+size(500,500)
 noStroke();
 for(float j = 25; j <= 500; j+=50)
 {
