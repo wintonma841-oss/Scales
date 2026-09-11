@@ -3,7 +3,6 @@ void setup() {
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-size(500,500)
 noStroke();
 for(float j = 25; j <= 500; j+=50)
 {
