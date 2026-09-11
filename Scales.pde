@@ -18,7 +18,7 @@ for(float j = 25; j <= 500; j+=50)
     fill(255,0,0);
     ellipse(i,j,20,20);
   }
-  System.out.println(" ");
+  
 }
 
 }
