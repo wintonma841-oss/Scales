@@ -3,7 +3,6 @@ void setup() {
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-scale(0,0);
 
 }
 void scale(int x, int y) {
