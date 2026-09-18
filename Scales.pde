@@ -3,7 +3,11 @@ void setup() {
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-noStroke();
+
+
+}
+void scale(int x, int y) {
+  noStroke();
 for(float j = 25; j <= 500; j+=50)
 {
   for(float i = 25; i <= 500; i+=50)
@@ -19,8 +23,4 @@ for(float j = 25; j <= 500; j+=50)
     ellipse(i,j,20,20);
   }
 }
-
-}
-void scale(int x, int y) {
-  //your code here
 }
